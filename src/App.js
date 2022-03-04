@@ -23,7 +23,6 @@ function App() {
             },
           }
         );
-        console.log(result.data);
         setData(result.data);
       } catch (error) {
         setError(error);
