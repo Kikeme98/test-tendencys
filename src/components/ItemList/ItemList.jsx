@@ -2,7 +2,6 @@ import React from "react";
 import './ItemList.css';
 
 function ItemList(props) {
-    console.log(props);
 
     const [items, setItems] = React.useState([]);
 

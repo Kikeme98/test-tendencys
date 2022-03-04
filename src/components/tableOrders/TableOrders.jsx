@@ -12,7 +12,6 @@ function TableOrders(props) {
     }, [props.data.orders]);
 
     const handleOrderClick = (order) => {
-        console.log(order);
         setSelectedOrder(order);
     };
 
@@ -26,7 +25,6 @@ function TableOrders(props) {
             price: fromData.get("price"),
         };
         orders[selectedOrder].items.push(data);
-        console.log(orders);
         setOrders((orders) => [...orders, orders]);
     };
 
